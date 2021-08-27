@@ -36,12 +36,12 @@ istream& operator >> (istream& is, NhanVien& b)
 }
 ostream& operator << (ostream& os, NhanVien b)
 {
-	os << setw(20) << left << a.hoten;
-	os << setw(20) << left << a.chucvu;
-	os << setw(20) << left << a.gioitinh;
-	os << setw(20) << left << a.quequan;
-	os << setw(20) << left << a.namsinh;
-	os << setw(20) << left << a.namvaolam;
+	os << setw(20) << left << b.hoten;
+	os << setw(20) << left << b.chucvu;
+	os << setw(20) << left << b.gioitinh;
+	os << setw(20) << left << b.quequan;
+	os << setw(20) << left << b.namsinh;
+	os << setw(20) << left << b.namvaolam;
 	os << endl;
 	return os;
 }
